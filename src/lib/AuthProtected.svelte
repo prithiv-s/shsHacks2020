@@ -12,7 +12,6 @@
 	auth.onAuthStateChanged((user) => {
 		if (user) {
 			shouldShow = true;
-			console.log(user);
 		} else {
 			shouldShow = false;
 		}

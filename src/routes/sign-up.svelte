@@ -1,5 +1,6 @@
 <script>
 	import AuthProtected from '$lib/AuthProtected.svelte';
+	import Profile from '$lib/profile.svelte';
 	import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 	import app from '../core/firebaseServices';
 
@@ -32,7 +33,7 @@
 						}
 					}}
 				>
-					<h5 class="text-xl font-medium text-gray-900 dark:text-white">Sign up for Hackacab</h5>
+					<h5 class="text-xl font-medium text-gray-900 dark:text-white">Sign up for HackVocab</h5>
 					<div>
 						<label
 							for="email"
@@ -102,6 +103,6 @@
 		</div>
 	</span>
 	<span slot="auth">
-		<h1>Hi</h1>
+		<Profile />
 	</span>
 </AuthProtected>

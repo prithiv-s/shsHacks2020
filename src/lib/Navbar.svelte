@@ -1,11 +1,11 @@
 <script lang="ts">
 	let dropdownOpen = false;
 
-	const routes = ['/', '/dashboard', '/parsers'];
-	const routeNames = ['Home', 'Dashboard', 'Parsers'];
+	const routes = ['/dashboard', '/parsers'];
+	const routeNames = ['Dashboard', 'Parsers'];
 </script>
 
-<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+<nav class="bg-blue-200 border-gray-200 px-2 sm:px-4 py-4 rounded dark:bg-gray-800">
 	<div class="container flex flex-wrap justify-between items-center mx-auto">
 		<a href="https://flowbite.com" class="flex items-center">
 			<img
@@ -14,7 +14,7 @@
 				alt="Flowbite Logo"
 			/>
 			<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-				>Hackacab</span
+				>HackVocab</span
 			>
 		</a>
 		<div class="flex items-center md:order-2">
@@ -69,7 +69,7 @@
 					<li>
 						<a
 							href={route}
-							class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-blue-100 md:border-0 md:hover:text-blue-700 md:px-3 md:py-2 md:rounded md:transition dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+							class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-blue-100 md:border-0 md:hover:text-blue-700 md:px-3 md:py-2 md:rounded md:transition dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-2xl dark:border-gray-700"
 							>{routeNames[i]}</a
 						>
 					</li>
