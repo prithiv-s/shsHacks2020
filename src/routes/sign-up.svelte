@@ -1,6 +1,6 @@
 <script>
 	import AuthProtected from '$lib/AuthProtected.svelte';
-	import Profile from '../lib//profile.svelte';
+	import Profile from '../lib/profile.svelte';
 	import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 	import app from '../core/firebaseServices';
 

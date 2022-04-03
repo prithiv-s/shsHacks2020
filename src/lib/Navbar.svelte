@@ -21,12 +21,12 @@
 			<a
 				href="/log-in/"
 				role="button"
-				class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+				class="flex mr-3 text-sm rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
 			>
 				<span class="sr-only">Open user menu</span>
 				<img
 					class="w-8 h-8 rounded-full"
-					src="https://flowbite.com/docs/images/people/profile-picture-3.jpg"
+					src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_405324.png&f=1&nofb=1"
 					alt="profile"
 				/>
 			</a>
