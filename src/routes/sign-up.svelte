@@ -103,6 +103,6 @@
 		</div>
 	</span>
 	<span slot="auth">
-		<Profile />
+		<h1></h1>
 	</span>
 </AuthProtected>
