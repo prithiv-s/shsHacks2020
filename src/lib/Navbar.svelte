@@ -1,4 +1,5 @@
 <script lang="ts">
+	import logo from '$lib/assets/logo.png';
 	let dropdownOpen = false;
 
 	const routes = ['/dashboard', '/parsers'];
@@ -7,12 +8,8 @@
 
 <nav class="bg-blue-200 border-gray-200 px-2 sm:px-4 py-4 rounded dark:bg-gray-800">
 	<div class="container flex flex-wrap justify-between items-center mx-auto">
-		<a href="https://flowbite.com" class="flex items-center">
-			<img
-				src="https://flowbite.com/docs/images/logo.svg"
-				class="mr-3 h-6 sm:h-9"
-				alt="Flowbite Logo"
-			/>
+		<a href="https://hackacab.vercel.app" class="flex items-center">
+			<img src={logo} class="mr-3 h-6 sm:h-9" alt="HackVocab Logo" />
 			<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
 				>HackVocab</span
 			>
