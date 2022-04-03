@@ -1,8 +1,8 @@
 <script lang="ts">
 	let dropdownOpen = false;
 
-	const routes = ['/', '/dashboard', '/rules'];
-	const routeNames = ['Home', 'Dashboard', 'Rules'];
+	const routes = ['/', '/dashboard', '/parsers'];
+	const routeNames = ['Home', 'Dashboard', 'Parsers'];
 </script>
 
 <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
@@ -14,16 +14,14 @@
 				alt="Flowbite Logo"
 			/>
 			<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-				>Flowbite</span
+				>Hackacab</span
 			>
 		</a>
 		<div class="flex items-center md:order-2">
-			<button
-				type="button"
+			<a
+				href="/log-in/"
+				role="button"
 				class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
-				id="user-menu-button"
-				aria-expanded="false"
-				data-dropdown-toggle="dropdown"
 			>
 				<span class="sr-only">Open user menu</span>
 				<img
@@ -31,7 +29,7 @@
 					src="https://flowbite.com/docs/images/people/profile-picture-3.jpg"
 					alt="profile"
 				/>
-			</button>
+			</a>
 			<button
 				type="button"
 				class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
